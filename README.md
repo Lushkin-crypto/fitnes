@@ -1,4 +1,4 @@
-# python_exam_telebot
+# fitnes_bot
 
 ## Описание
 

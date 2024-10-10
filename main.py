@@ -5,6 +5,9 @@
 Модуль содержит инициализацию бота и перехватчики для команд.
 """
 
+Модуль содержит инициализацию бота и перехватчики для команд.
+"""
+
 from argparse import ArgumentParser
 from json import dumps
 from logging import getLogger, Formatter, FileHandler, DEBUG
@@ -79,4 +82,4 @@ def non_commands_message_handle(message):
         Config.bot.send_message(message.from_user.id, msg_txt)
 
 
-Config.bot.polling(none_stop=True)
+Config.bot.polling(none_stop=True, interval=0)

@@ -11,7 +11,7 @@ class Config:
     """Статический класс, хранящий в себе настройки приложения (бота) и управляющий ими."""
 
     bot_token: Optional[str] = None
-    api_key: str = "b5e3362d2cmsh19ae73cd82fac1cp184259jsna7dd64812155"
+    api_key: str = "34f1d10fbcmshebd36b92091d5b0p136d22jsn15e1b183d838"
     host: str = "exerciseapi3.p.rapidapi.com"
 
     bot: Optional[TeleBot] = None
